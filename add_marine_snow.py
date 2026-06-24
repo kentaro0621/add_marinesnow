@@ -25,7 +25,7 @@ add_marine_snow.py
         マスク名は <画像名>_mask001.png) のフォルダも出力する
  
 実行:
-python3 add_marine_snow.py "/image" "/output_image"
+python3 add_marine_snow.py "/image" "/output_image" --lama
  """
  
 import argparse   # コマンドライン引数の処理
