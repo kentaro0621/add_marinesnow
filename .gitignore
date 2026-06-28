@@ -1,4 +1,17 @@
+# デフォルトで全て無視
+*
+
+# ディレクトリ自体は無視しない（中身をホワイトリストで制御するため）
+!*/
+
+# 出力フォルダ・キャッシュは再度無視
+output_image*/
+test_out/
 __pycache__/
-image/
-output_image/
-*.pyc
+.claude/
+# 入力データセット（大量画像のためgit管理外）
+Unpaired_1000/
+
+# ========== 追跡対象 ==========
+!.gitignore
+!add_marine_snow.py
